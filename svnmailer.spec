@@ -1,11 +1,14 @@
+%define rel 4
+
 Name:           svnmailer
 Version:        1.0.8
-Release:        %mkrel 3
+Release:        %mkrel %rel
 Summary:        Tool to send subversion commit notifications 
 Group:          Development/Other
 License:        Apache License 2.0
 URL:            http://opensource.perlig.de/svnmailer/
 Source0:        http://storage.perlig.de/svnmailer/%{name}-%{version}.tar.bz2
+Patch:          svnmailer-1.0.8-python2.5.diff
 BuildRequires:  python-devel
 Requires:       python-svn  
 BuildArch:      noarch
@@ -21,6 +24,7 @@ many more features.
 
 %prep
 %setup -q
+%patch -p0
 
 %install
 rm -rf %{buildroot}
