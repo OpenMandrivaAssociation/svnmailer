@@ -12,7 +12,6 @@ Patch:          svnmailer-1.0.8-python2.5.diff
 BuildRequires:  python-devel
 Requires:       python-svn  
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 The svnmailer is a tool that is usually called by a subversion hook to submit 
