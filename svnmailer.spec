@@ -1,4 +1,4 @@
-%define rel 6
+%define rel 7
 
 Name:           svnmailer
 Version:        1.0.8
