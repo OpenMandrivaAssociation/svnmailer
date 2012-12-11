@@ -41,3 +41,38 @@ rm -rf %{buildroot}
 %py_puresitedir/*egg-info
 
 
+
+
+%changelog
+* Tue Nov 02 2010 Michael Scherer <misc@mandriva.org> 1.0.8-8mdv2011.0
++ Revision: 592174
+- rebuild for python 2.7
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 1.0.8-7mdv2010.0
++ Revision: 445280
+- rebuild
+
+* Fri Jan 02 2009 Funda Wang <fwang@mandriva.org> 1.0.8-6mdv2009.1
++ Revision: 323369
+- rebuild
+
+* Thu Mar 13 2008 Andreas Hasenack <andreas@mandriva.com> 1.0.8-5mdv2008.1
++ Revision: 187646
+- rebuild for 2008.1
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue May 01 2007 Michael Scherer <misc@mandriva.org> 1.0.8-4mdv2008.0
++ Revision: 19769
+- patch to fix #30472
+
+
+* Wed Dec 06 2006 Michael Scherer <misc@mandriva.org> 1.0.8-3mdv2007.0
++ Revision: 91850
+- rebuild for new python
+- Import svnmailer
+
