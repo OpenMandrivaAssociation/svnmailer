@@ -6,7 +6,7 @@ Release:        %mkrel %rel
 Summary:        Tool to send subversion commit notifications 
 Group:          Development/Other
 License:        Apache License 2.0
-URL:            http://opensource.perlig.de/svnmailer/
+URL:            https://opensource.perlig.de/svnmailer/
 Source0:        http://storage.perlig.de/svnmailer/%{name}-%{version}.tar.bz2
 Patch:          svnmailer-1.0.8-python2.5.diff
 BuildRequires:  python-devel
