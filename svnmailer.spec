@@ -2,7 +2,7 @@
 
 Name:           svnmailer
 Version:        1.0.8
-Release:        %mkrel %rel
+Release:        %rel.1
 Summary:        Tool to send subversion commit notifications 
 Group:          Development/Other
 License:        Apache License 2.0
